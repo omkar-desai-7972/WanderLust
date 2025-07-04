@@ -1,0 +1,9 @@
+#map{
+    width:85vh;
+    height: 400px;
+    background: grey;
+}
+
+#panel{width: 100%;
+    height: 400px;
+}

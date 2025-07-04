@@ -1,0 +1,121 @@
+body{
+display: flex;
+flex-direction: column;
+min-height: 100vh;
+}
+.container{
+    flex:1;
+}
+.navbar{
+    height:5rem !important; 
+ }
+ .navbar-nav {
+    background-color: #f8f9fa; /* Add background color to the menu to prevent overlap */
+    padding: 1rem; /* Ensure menu has space on collapsed view */
+    border-radius: 5px; /* Optional: Add a border radius to the menu */
+  }
+
+.fa-compass{
+    color: #fe425d !important;
+    font-size: 2rem !important;
+}
+
+/* footer */
+.f-info-links a{
+    text-decoration: none !important;
+    color: #222222 !important;
+}
+
+.f-info-links a:hover{
+    text-decoration: underline !important;
+}
+
+.f-info-links,.f-info-socials{
+    width: 100%;
+    vertical-align: middle;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+} 
+.f-info-brand {
+    width: 100%;
+    vertical-align: middle;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+} 
+.f-info-socials i{
+    font-size: 1.2rem; 
+    margin-right: 1rem;
+}
+
+.f-info{
+    text-align: center;     
+    height: 8rem;
+    background-color: #ebebeb;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: space-evenly;
+}
+/* cards */
+.listingcard{
+    border: none !important;
+    margin-bottom: 2rem !important;
+}
+.card-img-top{
+    border-radius: 1rem !important;
+    width: 100% !important;
+    object-fit: cover !important;
+}
+.card-body{
+    padding: 0 !important;
+    margin: 0 !important;
+}
+.card-text p{
+    font-weight: 400;
+}
+/* addbtn */
+.add-btn{
+    background-color: #fe425d !important;
+    border: none;
+}
+
+/* editbtn */
+.edit-btn{
+    background-color: #fe425d !important;
+    border: none;
+}
+
+
+.listinglink{
+    text-decoration: none;
+}
+
+.card-img-overlay{
+    opacity: 0;
+}
+
+.card-img-overlay:hover{
+    opacity: 0.2;
+    background-color: white;
+}
+
+/* Show page styling */
+.show-img{
+    height: 30vh !important;
+}
+
+.btns{
+    display: flex;
+}
+
+.editbtc{
+    height: 37.33px;
+    width: 70px;
+}
+
+.showcard{
+    padding-left: 0;
+    padding-right:0;
+}
