@@ -20,5 +20,3 @@ const reviewSchema = new Schema({
 });
 
 module.exports = mongoose.model("Review", reviewSchema);
-
-//hii this is for checking
